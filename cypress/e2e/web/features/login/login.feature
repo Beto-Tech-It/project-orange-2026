@@ -1,4 +1,4 @@
-Feature: Proceso de Login
+Feature: Proceso de Login en la aplicacion OrangeHRM
 
   Scenario: Validar el proceso de login exitoso
     Given que el usuario se encuentra en la pagina de login
