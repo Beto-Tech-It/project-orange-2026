@@ -1,4 +1,4 @@
-Feature: Navegación del menu lateral principal
+Feature: Navegación del menu lateral principal 
 
   Scenario Outline: Usuario navega por las opciones del menu lateral principal
     Given que el usuario se encuentra en la página de login
