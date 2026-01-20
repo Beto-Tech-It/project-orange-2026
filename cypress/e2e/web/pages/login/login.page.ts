@@ -24,7 +24,6 @@ export class LoginPage {
         // const user = username === 'vacio' ? '' : username; // Convertir "vacio" a string vacío - operador ternario
         // const pass = password === 'vacio' ? '' : password; // Convertir "vacio" a string vacío - operador ternario
        
-        // Siempre hacer click en el botón
         
     });
 }
