@@ -11,10 +11,9 @@ Given('que el usuario se encuentra en la pagina de login', () => {
 When('el usuario ingresa el username {string} y la contraseña {string}', (username: string, password: string) => {
         // Implementar la lógica para ingresar las credenciales
    // Convertir "vacio" a string vacío
-    const user = username === 'vacio' ? '' : username; // Convertir "vacio" a string vacío - operador ternario
-    const pass = password === 'vacio' ? '' : password; // Convertir "vacio" a string vacío - operador ternario
+   
     
-    loginPage.ingresarCredenciales(user, pass);
+    loginPage.ingresarCredenciales(username, password);
 });
 
 Then('el usuario deberia ver el dashboard', () => {

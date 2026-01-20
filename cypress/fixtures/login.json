@@ -1,5 +1,5 @@
 {
-  "login_user": "[placeholder=Username]",
-  "psw_user": "[placeholder=Password]",
+  "login_user": "[name=username]",
+  "psw_user": "[name=password]",
   "button_click":"[type=submit]"
 }
