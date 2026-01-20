@@ -1,11 +1,11 @@
-import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
+import { Given, When} from "@badeball/cypress-cucumber-preprocessor";
 import { SidebarPrincipalPage } from "../../pages/sidebar/sidebarprincipal.page";
 import { LoginPage } from "../../pages/login/login.page";
 
 const loginPage = new LoginPage();
 const sidebarLateral = new SidebarPrincipalPage();
 
-Given("que el usuario se encuentra en la página de login", () => {
+Given('que el usuario se encuentra en la página de login', () => {
     loginPage.visit();
 });
 

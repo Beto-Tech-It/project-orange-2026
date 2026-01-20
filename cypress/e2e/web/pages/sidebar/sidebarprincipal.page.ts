@@ -20,14 +20,8 @@ export class SidebarPrincipalPage {
 
 validarOpcionesMenu(opcion: string) {
      cy.fixture("sidebarprincipal").then((elements) => {
-            //cy.get(elements.first_level).should("exist").and("be.visible").contains(opcion).click().wait(2000);
-            cy.get(elements.first_level).should("exist").and("be.visible").invoke("text").then((texto) => {
-                if(texto.includes(opcion)){
-                    cy.contains(opcion).click().wait(2000);
-                }
-            }
-        );
-    });
- }
+            cy.get(elements.first_level).should("exist").and("be.visible").contains(opcion).click().wait(2000);
+        });
+    }
 
 }

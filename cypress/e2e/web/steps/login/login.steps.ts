@@ -11,7 +11,6 @@ Given('que el usuario se encuentra en la pagina de login', () => {
 When('el usuario ingresa el username {string} y la contraseña {string}', (username: string, password: string) => {
         // Implementar la lógica para ingresar las credenciales
    // Convertir "vacio" a string vacío
-   
     
     loginPage.ingresarCredenciales(username, password);
 });
