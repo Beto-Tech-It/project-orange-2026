@@ -3,7 +3,7 @@ export class LoginPage {
         cy.visit("https://opensource-demo.orangehrmlive.com/");
     }
 
-   ingresarCredenciales(username: string, password: string) {
+   ingresarCredencialesTotales(username: string, password: string) {
     cy.fixture("login").then((elements) => {
         // Solo escribir username si NO está vacío
 

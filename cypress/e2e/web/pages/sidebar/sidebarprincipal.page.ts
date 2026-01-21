@@ -1,10 +1,7 @@
-export class LoginPage {
-    visit() {
-        cy.visit('/web/index.php/dashboard/index');
-    }
+export class CredencialUnicaPage {
+   
 
-
-    ingresarCredenciales(username: string, password: string) {
+    ingresarCredencialesUnicas(username: string, password: string) {
         // Lógica para ingresar credenciales en la página del sidebar principal
     
     cy.fixture("login").then((elements) => {

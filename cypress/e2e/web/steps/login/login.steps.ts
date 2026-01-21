@@ -12,7 +12,7 @@ When('el usuario ingresa el username {string} y la contraseña {string}', (usern
         // Implementar la lógica para ingresar las credenciales
    // Convertir "vacio" a string vacío
     
-    loginPage.ingresarCredenciales(username, password);
+    loginPage.ingresarCredencialesTotales(username, password);
 });
 
 Then('el usuario deberia ver el dashboard', () => {
